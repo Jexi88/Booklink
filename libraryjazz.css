@@ -1,0 +1,22 @@
+html{background: url('bookshelfbig.png');
+                background-size: 100%;
+				background-repeat: repeat-y;
+    
+}
+
+.dodaj{display:block;
+height:75px;
+width:auto;
+position:fixed;
+margin-left:74%;
+margin-right:auto;
+margin-top:115%;
+
+}
+
+img{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
