@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+          <head>
+		  <meta charset="utf-8">
+          <link rel="stylesheet" href="editbook.css">
+		  
+		  <title> Edit Book </title>
+		  </head>
+			<body background="wood.jpg.jpg">
+         <header>
+         <ul>
+			<li><a class="active" href="#home">Edit</a></li>
+			
+			 <li><a class="delete" href="#news">Delete</a></li>
+			 
+			  
+		 </ul>
+		 
+		 
+         </header>
+		 
+		 
+		 <img src="book1.jpg" alt="The Fault In Our Stars" height="30%" width="35%" > <p> &nbsp; &nbsp; The Fault in Our Stars <br> <br> &nbsp; &nbsp; John Green<br>  <br> &nbsp; &nbsp; 313pgs </p> </img>
+		 <section>
+		 <u> <b> Notes: </b> </u> My initial thoughts affoce to say it was one of the most hear shattering, cruel pieces i have set eeys on. Its a definite game changers for a lot of young adolt novelsts and John Green has indeed given a lot of tem a run for their money. 10/10. Would cry again,
+		 </section>
+		 <footer>
+         <ul>
+			<li><a class="active" href="#graph">Graph</a></li>
+			
+			 <li><a class="delete" href="#timeline">Timeline</a></li>
+				  
+		 </ul>
+		 </footer>
+		 
+ 
+			</body> 
+</html>
