@@ -1,0 +1,112 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #daad86;
+	font-size:100%;
+	font-family:pristina;
+	width:100;
+	border: 3px;
+	
+}
+
+li {
+    float: left;
+	width: 50%;
+	text-align: right;
+	padding-left:0%;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10% 10% ;
+    text-decoration: none;
+	width:55;
+	
+	
+	
+}
+
+
+}
+
+.active {
+width:100%;
+background:#781;
+text-align: center;
+padding-left:-105%;
+}
+
+.delete {
+
+width:100%;
+background:#3b3a36;
+text-align: center-left;
+padding-left: 0%;
+
+;
+}
+
+body {
+	background: url("wood2.jpg");
+	font-size: 5.9vw;
+	overflow-x:hidden;
+	
+	
+}
+
+header {
+	margin-top:-3%;
+	padding-bottom:0%;
+	padding-top:-5%;
+	margin-left:-3%;
+	margin-right:-3%;
+	
+}
+
+img {
+	padding-top:0%;
+	padding-left:3%;
+	vertical-align: -752%;
+	
+	
+}
+
+p{
+		float: right;
+        display: block;
+        margin: -50% -5% 0 2%;
+        width: 66%;
+		padding-left: 12%;
+		font-family:pristina;
+		font-weight: bold;
+		
+	
+}
+
+section{margin-top:5%;
+		margin-left:3%;
+		margin-bottom:5%;
+		padding: 3px;
+		border: 1px solid #333;
+		border-radius: 10px;
+		background-color:rgba(200,200,200,0.5);
+	
+}
+ footer{
+	 position:fixed;
+	 bottom:0;
+	 left:0;
+	 right:0;
+	 width:100%;
+	 
+	 margin-right:-11%;
+	 padding-right:5%;
+	 overflow:hidden;
+ }
