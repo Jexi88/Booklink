@@ -1,0 +1,152 @@
+<!DOCTYPE>
+
+<html>
+
+	<head>
+		
+
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="http://cytoscape.github.io/cytoscape.js/api/cytoscape.js-latest/cytoscape.min.js"></script>
+
+		<!-- for testing with local version of cytoscape.js -->
+		<!--<script src="../cytoscape.js/build/cytoscape.js"></script>-->
+
+		<script src="https://cdn.rawgit.com/cpettitt/dagre/v0.7.4/dist/dagre.min.js"></script>
+		<script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-dagre/1.1.2/cytoscape-dagre.js"></script>
+
+		<style>
+			body {
+				font-family: helvetica;
+				font-size: 14px;
+			}
+			#cy {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 999;
+			}
+			h1 {
+				opacity: 0.5;
+				font-size: 1em;
+			}
+		</style>
+
+		<script>
+		    
+			var x= prompt('Rezime i broj stranica');
+			var x1= prompt('Rezime i broj stranica');
+			var x2= prompt('Rezime i broj stranica');
+			var x3= prompt('Rezime i broj stranica');
+			var x4= prompt('Rezime i broj stranica');
+			var x5= prompt('Rezime i broj stranica');
+			var x6= prompt('Rezime i broj stranica');
+			var x7= prompt('Rezime i broj stranica');
+			var x8= prompt('Rezime i broj stranica');
+			var x9= prompt('Rezime i broj stranica');
+			var x10= prompt('Rezime i broj stranica');
+			var x11= prompt('Rezime i broj stranica');
+			var x12= prompt('Rezime i broj stranica');
+			var x13= prompt('Rezime i broj stranica');
+			var x14= prompt('Rezime i broj stranica');
+			var x15= prompt('Rezime i broj stranica');
+			var x16= prompt('Rezime i broj stranica');
+			var x17= prompt('Rezime i broj stranica');
+			var x18= prompt('Rezime i broj stranica');
+			var x19= prompt('Rezime i broj stranica');
+			var x20= prompt('Rezime i broj stranica');
+			  
+			
+			
+			
+			$(function(){
+				var cy = window.cy = cytoscape({
+					container: document.getElementById('cy'),
+          boxSelectionEnabled: false,
+          autounselectify: true,
+					layout: {
+						name: 'dagre'
+					},
+					style: [
+						{
+							selector: 'node',
+							style: {
+								'content': 'data(id)',
+								'text-opacity': 0.5,
+								'text-valign': 'center',
+								'text-halign': 'right',
+								'background-color': '#3d3d5c'
+							}
+						},
+						{
+							selector: 'edge',
+							style: {
+								'width': 4,
+								'target-arrow-shape': 'triangle',
+								'line-color': '#000066',
+								
+							}
+						}
+					],
+					elements: {
+						nodes: [
+							{ data: { id: x+"-"+"10. strana" } },
+							{ data: { id: x1+"-"+"20. strana" } },
+							{ data: { id: x2+"-"+"30. strana" } },
+							{ data: { id: x3+"-"+"40. strana" } },
+							{ data: { id: x4+"-"+"50. strana" } },
+							{ data: { id: x5+"-"+"60. strana" } },
+							{ data: { id: x6+"-"+"70. strana" } },
+							{ data: { id: x7+"-"+"80. strana" } },
+							{ data: { id: x8+"-"+"90. strana" } },
+							{ data: { id: x9+"-"+"100. strana" } },
+							{ data: { id: x10+"-"+"110. strana" } },
+							{ data: { id: x11+"-"+"120. strana" } },
+							{ data: { id: x12+"-"+"130. strana" } },
+							{ data: { id: x13+"-"+"140. strana" } },
+							{ data: { id: x14+"-"+"150. strana" } },
+							{ data: { id: x15+"-"+"160. strana" } },
+							{ data: { id: x16+"-"+"170. strana" } },
+							{ data: { id: x17+"-"+"180. strana" } },
+							{ data: { id: x18+"-"+"190. strana" } },
+							{ data: { id: x19+"-"+"200. strana" } },
+							{ data: { id: x20+"-"+"210. strana" } },
+						],
+						edges: [
+							{ data: { source: x+"-"+"10. strana", target: x1+"-"+"20. strana" } },
+							{ data: { source: x1+"-"+"20. strana", target: x2+"-"+"30. strana" } },
+							{ data: { source: x2+"-"+"30. strana", target: x3+"-"+"40. strana" } },
+							{ data: { source: x3+"-"+"40. strana", target: x4+"-"+"50. strana" } },
+							{ data: { source: x4+"-"+"50. strana", target: x5+"-"+"60. strana" } },
+							{ data: { source: x5+"-"+"60. strana", target: x6+"-"+"70. strana" } },
+							{ data: { source: x6+"-"+"70. strana", target: x7+"-"+"80. strana" } },
+							{ data: { source: x7+"-"+"80. strana", target: x8+"-"+"90. strana" } },
+							{ data: { source: x8+"-"+"90. strana", target: x9+"-"+"100. strana" } },
+							{ data: { source: x9+"-"+"100. strana", target: x10+"-"+"110. strana" } },
+							{ data: { source: x10+"-"+"110. strana", target: x11+"-"+"120. strana" } },
+							{ data: { source: x11+"-"+"120. strana", target: x12+"-"+"130. strana" } },
+							{ data: { source: x12+"-"+"130. strana", target: x13+"-"+"140. strana" } },
+							{ data: { source: x13+"-"+"140. strana", target: x14+"-"+"150. strana" } },
+							{ data: { source: x14+"-"+"150. strana", target: x15+"-"+"160. strana" } },
+							{ data: { source: x15+"-"+"160. strana", target: x16+"-"+"170. strana" } },
+							{ data: { source: x16+"-"+"170. strana", target: x17+"-"+"180. strana" } },
+							{ data: { source: x17+"-"+"180. strana", target: x18+"-"+"190. strana" } },
+							{ data: { source: x18+"-"+"190. strana", target: x19+"-"+"200. strana" } },
+							{ data: { source: x19+"-"+"200. strana", target: x20+"-"+"210. strana" } },
+						]
+					},
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		
+		<div id="cy"></div>
+
+	</body>
+
+</html>
